@@ -4,7 +4,16 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-    - file: references.md
+      - file: README.md
+      - file: Course files/Software
+  
+  - caption: Notebooks
+    sections:
+      - file: Course files/Notebook 1/Notebook 1 Python Basics.ipynb
+      - file: Course files/Good Programming Practices/Good coding practices.ipynb
+      - file: Course files/Notebook 2/Notebook 2 Functions.ipynb
+      - file: Course files/Notebook 3/Notebook 3 Program Flow Control.ipynb
+      - file: Course files/Notebook 4/Notebook 4 Scientific Computing.ipynb
+      - file: Course files/Notebook 5/Notebook 5 Data in Python.ipynb
+      - file: Course files/Notebook 6/Notebook 6 Measurement uncertainty.ipynb
+      - file: Course files/Notebook 7/Notebook 7 Additional materials.ipynb
