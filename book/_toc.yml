@@ -8,7 +8,7 @@ parts:
       - file: Course files/Software
   
   - caption: Notebooks
-    sections:
+    chapters:
       - file: Course files/Notebook 1/Notebook 1 Python Basics.ipynb
       - file: Course files/Good Programming Practices/Good coding practices.ipynb
       - file: Course files/Notebook 2/Notebook 2 Functions.ipynb
