@@ -1,92 +1,85 @@
-# FYPLC Python
+# Introduction to Python for Physicists 
 
-Seven modules that introduce first year students at Applied Physics Delft to Python & data-analysis
+In this repository, you can find the source code of the material developed for an introduction to Python for physicists that runs as a "minicourse" of 1.5 ECTS as part of the "First Year Physics Lab Course" of the Applied Physics program at TU Delft.
 
-## Getting started
+The course consists of 6 core Jupyter notebooks, and additional materials, designed for self-study. The notebooks are self-contained, and include an explanation of the concepts, example code to illustrate the concepts, and exercises (with answers at the end) for testing your knowledge. 
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+The notebooks are designed for people with no programming background at all, and are used in the course during 8 afternoons (32  hours). By the end of the course, you should be familiar with:
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+* Basic concepts in Python: What it is and how it works
+* Functions in Python: How to write them and how to use them 
+* Program flow control: How to control the flow of execution of your code
+* Scientific computing in Python: Introduction to the numpy library
+* Data in Python: How to load, plot and fit data
+* Measurement uncertainty and error propagation: Quantify measurement uncertainties and calculate how these propagate to your final answer.
 
-## Add your files
+Each notebook of the first 5 Notebooks start with a pre-post test. If you have some knowledge of programming, you can make the test and see whether you already know the content. If you can make the test without any problems, skip the module. If you are not familiar with programming (in Python), go through the module, do the exercises and finish with the test to see whether you mastered the content. Each notebook includes a list of detailed learning objectives so you know what you should be learning. In addition, there is a "notebook for more advanced programmers", exploring additional programming concepts in python. 
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+#  How to use them
+
+If you want to use the notebooks for learning Python, you can download this zip file:
+
+%Replace
+[Lecture_Notebooks.zip](https://gitlab.tudelft.nl/python-for-applied-physics/practicum-lecture-notes/-/jobs/artifacts/master/download?job=outputs)
+
+The zipfile also includes instructions on how to install Python and start up the notebook server. 
+
+# Feedback
+
+Did you find a typo? Is there something that is not clear to you? Is there a mistake in the notebooks? We gladly welcome feedback! To give feedback, the easiest for us is  for you to  submit an "issue" in our  repository issue tracker:
+
+[Submit an "issue"](https://gitlab.tudelft.nl/python-for-applied-physics/practicum-lecture-notes/issues/new?issuable_template=feedback)
+
+In the message, please include:
+
+* The notebook number
+* Cut-and-paste the text from the notebook
+* Optional: Describe your suggestion (with a typo not needed even)
+
+
+
+# Developers
+
+The first five notebooks were developed by Gary Steele <g.a.steele@tudelft.nl> with input and feedback from Jeroen Kalkman <J.Kalkman@tudelft.nl> and Freek Pols <c.f.j.pols@tudelft.nl>. All other notebooks were developed by Freek Pols
+
+```python
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.tudelft.nl/fpols/fyplc-python.git
-git branch -M main
-git push -uf origin main
+
+Copyright  Delft University of Technology and contributors 2019.
+
+## Contents
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/ "Creative Commons License")
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Source code
+
+Copyright (c) 2019, Delft University of Technology and contributors  
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+* Neither the name of TU Delft nor the
+  names of contributors may be used to endorse or promote products
+  derived from this software without specific prior written permission.
+
+```{warning}
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL DELFT UNIVERSITY OF TECHNOLOGY BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.tudelft.nl/fpols/fyplc-python/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.

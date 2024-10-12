@@ -2,10 +2,10 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: General
     chapters:
       - file: README.md
-      - file: Course files/Software
+      - file: Course files/Software.md
   
   - caption: Notebooks
     chapters:

@@ -9,6 +9,15 @@ A popular code editor is [Visual Studio Code](https://code.visualstudio.com/). I
 ### Terminal
 The terminal in Visual Studio Code (VSC) is a tool that lets you interact with your computer's command line directly within the editor. It's used to run commands, scripts, or programs without leaving the coding environment. For example, you can compile code, run a development server, install dependencies, or manage files. It's very helpful for developers because it allows you to code and execute commands in one place, streamlining your workflow.
 
+```{figure} Figures/VSCterminal.PNG
+---
+name: fig_VSCterminal
+width: 80%
+---
+The VSC terminal to interact with the computer using the command line
+```
+
+
 ### Install packages
 If you're working with Python, you can install packages using pip. For example, to install the requests library, run:
 
@@ -80,7 +89,7 @@ Once installed, open the anaconda prompt. This opens a terminal (a text-based in
 conda --version
 ```
 
-```{figure} condaversion.PNG
+```{figure} Figures/condaversion.PNG
 :figclass: margin
 :width: 100%
 ```
@@ -126,9 +135,9 @@ Normally we navigate through our folders by using a graphic interface and clicki
 
 When you run the command `dir` it returns the folders and files in the folder you are currently in. You can go to another folder by running the command `cd NAMEFOLDER`. If you want to move to a higher folder, run the command `cd ..`
 
-```{figure} terminaldir.PNG
+```{figure} Figures/terminaldir.PNG
 ---
-name:
+name: fig_terminaldir
 width: 70%
 ---
 Moving through your folder with the command line
@@ -141,7 +150,7 @@ In this course we make use of .ipynb files which are Jupyter Notebooks. To run t
 
 To start Jupyter lab, open the Anaconda terminal (Anaconda Prompt), move to the folder where you want to start Jupyter Lab in (where your files are located) and run the command `jupyter lab` in the terminal. A browser is started with which you can open your Notebooks, see {numref}`Figure {number} <fig_jl>`. Our first [notebook ](../../External/fyplc-python/Course%20files/Notebook%201/Notebook%201%20Python%20Basics.ipynb) tells you exactly how these notebooks work and how to develop and run code.
 
-```{figure} jupyterlab.PNG
+```{figure} Figures/jupyterlab.PNG
 ---
 name: fig_jl
 width: 90%
