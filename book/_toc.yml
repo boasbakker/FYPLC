@@ -3,11 +3,13 @@ root: intro.md
 
 parts:
   - caption: General
+    numbered: true
     chapters:
       - file: README.md
       - file: Course files/Software.md
   
   - caption: Notebooks
+  numbered: true
     chapters:
       - file: Course files/Notebook 1/Notebook 1 Python Basics.ipynb
       - file: Course files/Good Programming Practices/Good coding practices.ipynb
