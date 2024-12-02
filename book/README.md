@@ -14,6 +14,7 @@ The course consists of 6 core Jupyter notebooks, and additional materials, desig
 | Notebook 6 | Uncertainties         | Core material | 
 | Notebook 7 | GUI's                 | Addtional | 
 | Notebook 8 | Practice material     | Practice | 
+| Example exam | Example exam | old exam |
 
 The notebooks are designed for people with no programming background at all, and are used in the course during 8 afternoons (32  hours). By the end of the course, you should be familiar with:
 
@@ -26,7 +27,7 @@ The notebooks are designed for people with no programming background at all, and
 
 Each notebook of the first 5 Notebooks start with a pre-post test. If you have some knowledge of programming, you can make the test and see whether you already know the content. If you can make the test without any problems, skip the module. If you are not familiar with programming (in Python), go through the module, do the exercises and finish with the test to see whether you mastered the content. Each notebook includes a list of detailed learning objectives so you know what you should be learning. In addition, there is a "notebook for more advanced programmers", exploring additional programming concepts in python. 
 
-#  How to use them
+##  How to use them
 
 If you want to use the notebooks for learning Python, you can download this zip file:
 
@@ -35,7 +36,7 @@ If you want to use the notebooks for learning Python, you can download this zip 
 
 The zipfile also includes instructions on how to install Python and start up the notebook server. 
 
-# Feedback
+## Feedback
 
 Did you find a typo? Is there something that is not clear to you? Is there a mistake in the notebooks? We gladly welcome feedback! To give feedback, the easiest for us is  for you to  submit an "issue" in our  repository issue tracker:
 
@@ -49,9 +50,9 @@ In the message, please include:
 
 
 
-# Developers
+## Developers
 
-The first five notebooks were developed by Gary Steele <g.a.steele@tudelft.nl> with input and feedback from Jeroen Kalkman <J.Kalkman@tudelft.nl> and Freek Pols <c.f.j.pols@tudelft.nl>. All other notebooks were developed by Freek Pols
+The first five notebooks were developed by Gary Steele <g.a.steele@tudelft.nl> with input and feedback from Jeroen Kalkman <J.Kalkman@tudelft.nl> and Freek Pols <c.f.j.pols@tudelft.nl>. These notebooks were then developed further by Freek. All other notebooks were developed by Freek Pols
 
 ```python
 
@@ -88,8 +89,7 @@ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
 DISCLAIMED. IN NO EVENT SHALL DELFT UNIVERSITY OF TECHNOLOGY BE LIABLE FOR ANY
 DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
