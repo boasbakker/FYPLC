@@ -26,7 +26,7 @@ pip install requirements
 ```
 requirements here refers to the packages that you want to install. 
 
-````{Note}
+````{note}
 On MAC's you probably need the pip3 pipline. Hence, the code will be:
 ```{code}
 pip3 install requirements
