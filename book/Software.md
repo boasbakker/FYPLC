@@ -1,7 +1,7 @@
 # Software
-
 Python is an interpreter programming language and thus needs an interpreter (some software). For programming it is always useful to have some software that helps you in writing code and running it. For this course we recommend you to install Mini-Conda, but provide instructions for other software as well.
 
+This [Presentation](../software installation.pptx) may help you installing the required/recommended software.
 
 ## VSC
 A popular code editor is [Visual Studio Code](https://code.visualstudio.com/). It allows you to program in different languages, where it recognizes the commands in that language and adjusts the FONT so that it becomes better readable. Moreover, it allows you to install various packages (such as Jupyter Notebook). It also integrates GIT and allows to code using Co-Pilot, an AI pair programmer. We advise to use VSC as it allows for multiple programming languages. 
@@ -10,15 +10,17 @@ A popular code editor is [Visual Studio Code](https://code.visualstudio.com/). I
 The terminal in Visual Studio Code (VSC) is a tool that lets you interact with your computer's command line directly within the editor. It's used to run commands, scripts, or programs without leaving the coding environment. For example, you can compile code, run a development server, install dependencies, or manage files. It's very helpful for developers because it allows you to code and execute commands in one place, streamlining your workflow.
 
 ### Install packages
-If you're working with Python, you can install packages using pip. For example, to install the requests library, run:
+If you're working with Python, you can install packages using pip. For example, to install a specific package, run:
 
 ```{code}
-pip install requirements
+pip install <requirements>
 ```
+
 requirements here refers to the packages that you want to install. 
 
-````{Note}
+````{note}
 On MAC's you probably need the pip3 pipline. Hence, the code will be:
+
 ```{code}
 pip3 install requirements
 ```
@@ -41,7 +43,7 @@ Extensions in Visual Studio Code (VSC) are powerful add-ons that enhance the fun
 
 #### How to Install Extensions:
 - Access Extensions View:
-    * Click on the Extensions icon in the Activity Bar on the side (or press Ctrl+Shift+X / Cmd+Shift+X).
+    * Click on the Extensions icon in the Activity Bar on the side (or press `Ctrl+Shift+X` / `Cmd+Shift+X`).
 
 - Search for Extensions:
     * In the Extensions view, you can search for the name or keywords related to the extension you want to install.
@@ -87,7 +89,7 @@ conda --version
 
 and press enter, the terminal will return the conda version.
 
-Since you installed the minimal installation, we need to install the IDE's we want and the packages that we need. We, at least, need Jupyter, numpy, matplotlib and scipy. A popular library that might come in handy is Pandas.
+Since you installed the minimal installation, we need to install the IDE's we want and the packages that we need. We need at least Jupyter, numpy, matplotlib and scipy. A popular library that might come in handy is Pandas.
 
 To install the IDE Jupyter and [Jupyter lab](https://anaconda.org/conda-forge/jupyterlab), run the commands:
 
