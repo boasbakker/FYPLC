@@ -2,7 +2,7 @@
 
 Python is an interpreter programming language and thus needs an interpreter (some software). For programming it is always useful to have some software that helps you in writing code and running it. For this course we recommend you to install Mini-Conda, but provide instructions for other software as well.
 
-This [presentation](https://github.com/Contemporary-Physicslab/FYPLC/blob/main/book/software%20installation.pptx) may help you installing the required/recommended software.
+This [presentation](https://github.com/Contemporary-Physicslab/FYPLC/blob/main/book/Course%20files/software%20installation.pptx) may help you installing the required/recommended software.
 
 ## VSC
 A popular code editor is [Visual Studio Code](https://code.visualstudio.com/). It allows you to program in different languages, where it recognizes the commands in that language and adjusts the FONT so that it becomes better readable. Moreover, it allows you to install various packages (such as Jupyter Notebook). It also integrates GIT and allows to code using Co-Pilot, an AI pair programmer. We advise to use VSC as it allows for multiple programming languages. 
@@ -23,14 +23,14 @@ The VSC terminal to interact with the computer using the command line
 If you're working with Python, you can install packages using pip. For example, to install the requests library, run:
 
 ```{code}
-pip install requirements
+pip install <requirement>
 ```
-requirements here refers to the packages that you want to install. 
+requirement here refers to the package that you want to install. 
 
 ````{note}
 On MAC's you probably need the pip3 pipline. Hence, the code will be:
 ```{code}
-pip3 install requirements
+pip3 install <requirement>
 ```
 ````
 
@@ -38,11 +38,12 @@ For the data-analysis you at least need to install the following packages:
 - numpy
 - matplotlib
 - scipy
+- pandas
 
 ````{exercise}
 Install these packages using:
 ```{code}
-pip install matplotlib numpy scipy
+pip install matplotlib numpy scipy pandas
 ```
 ````
 
@@ -162,7 +163,3 @@ The Jupyter lab IDE
 ## Git
 When writing code, especially larger projects, you want to keep track of your changes. Sometimes your code breaks and you want to go back to a previous version where all these troubles weren't there yet. For this purpose we have *version control software*. Most popular is **git**. Git is a distributed version control system that tracks changes in code or files, allowing multiple developers to collaborate efficiently on a project. GitHub is a web-based platform that hosts Git repositories, providing tools for collaboration, code sharing, and version management, often used for open-source and team projects. Here we don't go much deeper than this, but direct you to the [manual of our colleagues at CiTG](https://mude.citg.tudelft.nl/book/programming/programs/git/version_control.html). You may want to check this out a bit later during your first year.
 
-## Vocareum
-We sometimes make use of **Vocareum**. Vocareum is a cloud-based platform designed for educational institutions to provide hands-on learning experiences, particularly in coding, data science, and cloud computing. It offers a virtual lab environment where students can complete assignments, receive automated feedback, and instructors can manage and grade coursework efficiently. We make use of Vocareum to grade your work and provide feedback.
-
-If you want (online) help from the teaching assistants, you should upload your work to Vocareum. We can access your work, make changes and help you out. Moreover, you are to upload your exam(s) to Vocareum so that we can grade your work. Hence, get convenient with this platform.
