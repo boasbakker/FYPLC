@@ -28,6 +28,7 @@ sphinx:
     html_last_updated_fmt: '%B %-d, %Y'
   extra_extensions:
     - teachbooks_favourites
+    - sphinx_tudelft_theme
     
 bibtex_bibfiles: 
   - references.bib
