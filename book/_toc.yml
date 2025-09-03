@@ -3,7 +3,7 @@ root: intro.md
 
 parts:
   - caption: General
-    numbered: true
+    numbered: false
     chapters:
       - file: README.md
       - file: Course files/Software.md
@@ -22,6 +22,8 @@ parts:
         sections:
         - file: Course files/Notebook 3/NB3_ex_sol.ipynb
       - file: Course files/Notebook 4/Notebook 4 Scientific Computing.ipynb
+        sections:
+        - file: Course files/Notebook 4/NB4_ex_sol.ipynb
       - file: Course files/Notebook 5/Notebook 5 Data in Python.ipynb
       - file: Course files/Notebook 6/Notebook 6 Measurement uncertainty.ipynb
       - file: Course files/Notebook 7/Notebook 7 Additional materials.ipynb
