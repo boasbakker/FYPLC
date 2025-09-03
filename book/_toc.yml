@@ -25,7 +25,16 @@ parts:
         sections:
         - file: Course files/Notebook 4/NB4_ex_sol.ipynb
       - file: Course files/Notebook 5/Notebook 5 Data in Python.ipynb
+        sections:
+        - file: Course files/Notebook 5/NB5_ex_sol.ipynb
+  - caption: Measurement uncertainty
+    numbered: false
+    chapters:
       - file: Course files/Notebook 6/Notebook 6 Measurement uncertainty.ipynb
-      - file: Course files/Notebook 7/Notebook 7 Additional materials.ipynb
+  - caption: Practice materials      
+    numbered: false
+    chapters:
       - file: Course files/Notebook 8/Notebook 8 Practice.ipynb
       - file: Course files/Example exam/Example Exam.ipynb
+
+      #- file: Course files/Notebook 7/Notebook 7 Additional materials.ipynb
