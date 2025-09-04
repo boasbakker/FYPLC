@@ -4,6 +4,9 @@ teachbooks # depends on jupyter-book
 sphinx-tudelft-theme
 git+https://github.com/TeachBooks/TeachBooks-Favourites
 
+#testing for dennis
+git+https://github.com/TeachBooks/Sphinx-NB-Execution-Patterns
+
 # jupyterbook-patches
 # # numpy
 
