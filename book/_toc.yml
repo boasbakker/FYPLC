@@ -31,8 +31,8 @@ parts:
     numbered: false
     chapters:
       - file: Course files/Notebook 6/Notebook 6 Measurement uncertainty.ipynb
+      - file: Course files/Notebook 6/NB6_ex.ipynb
         sections:
-        - file: Course files/Notebook 6/NB6_ex.ipynb
         - file: Course files/Notebook 6/NB6_ex_sol.ipynb
   - caption: Practice materials
     numbered: false
