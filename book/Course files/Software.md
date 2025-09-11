@@ -39,6 +39,7 @@ For the data-analysis you at least need to install the following packages:
 - matplotlib
 - scipy
 - pandas
+- ipykernel
 
 ````{exercise}
 Install these packages using:
@@ -71,6 +72,11 @@ Extensions in Visual Studio Code (VSC) are powerful add-ons that enhance the fun
 * Github Copilot: Your AI pair programmer. Helps you in writing code.
 * LaTeX workshop: LaTeX coding, preview, compiling.
 * MyST-Markdown: The official Markdown syntax extension
+
+```{warning} Do not proceed
+Below is an explanation for both miniconda and anaconda. These provide excellent alternatives for programming in Python, besides VSC. However, installing both comes with the risk of conflicting versions of Python.
+```
+
 
 ## Anaconda & MiniConda
 **Anaconda** and **Miniconda** are both distributions of the Python and R programming languages, primarily aimed at simplifying package management and deployment for data science, machine learning, and scientific computing. The main difference between these distributions is the amount of disk space required (~4GB for Anaconda, 50 MB for Miniconda). Where Anaconda has already installed all main packages for you, you control with Miniconda precisely what you want to install. Hence, Miniconda is a minimal installer for the Anaconda distribution. It only includes the `conda` package manager (to install packages) and Python, along with their dependencies. It does not come with any pre-installed packages except for these essentials. That also means that it lacks a graphical user interface which is available with Anaconda.
