@@ -8,7 +8,10 @@ git+https://github.com/TeachBooks/TeachBooks-Favourites
 git+https://github.com/TeachBooks/Sphinx-NB-Execution-Patterns
 
 # jupyterbook-patches
-# # numpy
+numpy
+scipy
+ipywidgets
+matplotlib
 
 # # docutils version for reference page formatting
 # docutils==0.17.1
