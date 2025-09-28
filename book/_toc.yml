@@ -8,7 +8,7 @@ parts:
       - file: README.md
       - file: Course files/Software.md
   
-  - caption: Notebooks
+  - caption: Python for Physicists
     numbered: true
     chapters:
       - file: Course files/Notebook 1/Notebook 1 Python Basics.ipynb
@@ -39,5 +39,27 @@ parts:
     chapters:
       - file: Course files/Notebook 8/Notebook 8 Practice.ipynb
       - file: Course files/Example exam/Example Exam.ipynb
+
+  - caption: Simulations
+    numbered: false
+    chapters:
+      - file: Course files/Modelling/Intro.ipynb
+      - file: Course files/Modelling/Basics.ipynb
+  - caption: Git - Version Control
+    numbered: false
+    chapters:
+      - file: Github.md
+        sections:
+        - external: https://github.com/FreekPols/the-turing-way/blob/main/book/website/collaboration/github-novice/github-novice-motivation.md
+        - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/version_control/version_control.md
+        - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/workflows/git/intro.md
+          sections:
+          - external: https://github.com/FreekPols/the-turing-way/blob/main/book/website/collaboration/github-novice/github-novice-firststeps.md
+          - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/workflows/git/github.md
+          - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/workflows/git/commits_remote.md
+          - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/workflows/git/commits_local.md
+          - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/workflows/git/cloning.md
+          - external: https://github.com/TeachBooks/learn-programming/blob/mude-2025/book/workflows/git/vscode.md
+        
 
       #- file: Course files/Notebook 7/Notebook 7 Additional materials.ipynb
