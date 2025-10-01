@@ -16,6 +16,7 @@ sphinx:
     nb_execution_includepatterns:
       - "Course files/Notebook 6/Notebook 6 Measurement uncertainty.ipynb"
       - "Course files/Modelling/Basics.ipynb"
+      - "Course files/Notebook 1/Notebook 1 Python Basics.ipynb"
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     thebe_config:
