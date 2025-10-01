@@ -45,6 +45,8 @@ parts:
     chapters:
       - file: Course files/Modelling/Intro.ipynb
       - file: Course files/Modelling/Basics.ipynb
+      - file: Course files/Modelling/Modelling.ipynb
+
   - caption: Git - Version Control
     numbered: false
     chapters:
